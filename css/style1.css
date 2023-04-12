@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar-expand-lg{
+    background-color: red!important;
+}
+.TopSellerModal{
+    background-color: red;
+}
+.TopSellerModal h3{
+    color: white;
+}
+.TopSellerModal img{
+    border-radius: 12px;
+}
+/* ------------------------Minimum For this------------------------ */
+@media only screen and (min-width: 769px) {
+    .bannerBottomForm{
+        background-color: red;
+        height: 15vh;
+    }
+    .options{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 15vh;
+    }
+    .options select{
+        margin: 10px 12px;
+    }
+    .option1{
+        width: 100%;
+        text-align: start;
+        margin:0px 2px
+    }
+    .bannerback{
+        margin-top: -38px!important;
+    }
+    .location-image img {
+        height: 138px!important;
+        border: 3px solid red!important;
+    }
+    .slick-slide img {
+        border-radius: 50%!important;
+    }
+  }
+  /* ------------------Maxmimu for this-------------------------- */
+  @media only screen and (max-width: 769px) {
+    .bannerBottomForm{
+        background-color: red;
+        height: 45vh;
+    }
+    .options{
+        padding: 12px 12px;        
+    }
+    .option1{
+        padding: 10px 12px;
+    }
+    .btnSubmit input{
+       width: 70%;
+       margin: auto;
+       margin-top: 12px;
+    }
+    .margin-top-60{
+        margin-top: 25px!important;
+    }
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0px!important;
+        padding-bottom: 0px!important;
+    }
+    .py-41 {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+    .navbar-top li {
+        border-left: 1px solid #e0e0e0;
+        margin: 0 !important;
+        padding: 11px 11px 2px 17px!important;
+        /* align-items: center; */
+    }
+    .location-image img {
+        /* height: 175px!important; */
+        border-radius: 50%;
+        border-radius: 50%!important;
+        /* height: 30vh!important; */
+        width: 100%!important;
+    }
+  }
+  .osahan-menu-top-2 {
+   
+    background: linear-gradient(to right, #fb041c 0%, #952020 100%)!important;
+    
+}
+.footer-Content {
+    background: linear-gradient(to right, #dd0c0c 0%, #000000 100%)!important;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4a3eed', endColorstr='#9d1fff', GradientType=1);
+    margin: 0;
+    box-shadow: 0 0 6px rgba(193, 193, 193, 0.62);
+    color: rgba(255, 255, 255, 0.97);
+}
